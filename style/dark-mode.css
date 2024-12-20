@@ -1,0 +1,51 @@
+:root,
+[data-bs-theme="light"] {
+  --primary-color-light: var(--accent-color);
+}
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+  --primary-color-light: #adb5bd;
+}
+
+@media (prefers-color-scheme: dark) {
+  .banner,
+  .navigation-bar {
+    background-color: var(--third-color) !important;
+  }
+  .image,
+  .hero-heading,
+  .progress-bar,
+  .nav-pills .nav-link.active,
+  .btn {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+  }
+  .progress-bar,
+  .nav-pills .nav-link.active,
+  .btn {
+    --bs-btn-border-color: var(--third-color) !important;
+  }
+  .seitentitel,
+  .contact-about-me,
+  .nav-fill .nav-item .nav-link,
+  .nav-justified .nav-item .nav-link {
+    color: #fff !important;
+  }
+  .banner {
+    background-image: linear-gradient(
+      to right top,
+      #324b4b,
+      #325152,
+      #32575a,
+      #315d62,
+      #30636b,
+      #30656e,
+      #306672,
+      #306875,
+      #316673,
+      #326472,
+      #326270,
+      #33606e
+    );
+  }
+}

@@ -1,0 +1,67 @@
+@media (max-width: 1440px) and (min-width: 1250px) {
+  .seitentitel,
+  .seiteninhalte,
+  .back-box {
+    max-width: 1100px;
+  }
+}
+@media (max-width: 900px) {
+  .navbar .nav-link {
+    display: none;
+    visibility: collapse;
+    width: 0;
+  }
+  .mobile-center {
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .hero-heading {
+    background-color: #394855ba;
+  }
+  .badge,
+  .title-job {
+    text-align: center !important;
+    display: block !important;
+  }
+  body {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .boxen {
+    width: 100%;
+  }
+  .seiteninhalte {
+    padding: 15px 15px 0;
+    margin-bottom: 30px;
+  }
+  .seitentitel {
+    margin: 40px 15px 25px;
+  }
+  .back-box {
+    margin: 15px 15px;
+  }
+  .boxen {
+    margin-block: 10px;
+  }
+  .bottom-mobile {
+    margin-bottom: 0;
+  }
+  .banner {
+    min-height: calc(100vh - var(--navbar-höhe));
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .institution {
+    text-align: center;
+  }
+  .badge {
+    width: 78px;
+    margin: auto;
+  }
+  .image {
+    max-width: 70vw;
+  }
+}
