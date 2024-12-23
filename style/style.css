@@ -410,3 +410,9 @@ a:any-link {
   width: fit-content;
   font-size: smaller;
 }
+
+.error-404 {
+  margin-top: 50px;
+  background-color: var(--rot);
+  color: #fff;
+}
