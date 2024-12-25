@@ -416,3 +416,9 @@ a:any-link {
   background-color: var(--rot);
   color: #fff;
 }
+
+.imprint-header {
+  margin-top: 50px;
+  background-color: var(--third-color);
+  color: #fff;
+}
