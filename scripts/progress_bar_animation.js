@@ -8,4 +8,5 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 });
-observer.observe(document.querySelectorAll(".progress").forEach((el) => observer.observe(el)));
+
+document.querySelectorAll(".progress").forEach((el) => observer.observe(el));
