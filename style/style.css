@@ -1,7 +1,7 @@
 :root {
   --accent-color: #107c7c;
   --third-color: #234e5a;
-  --selection-color: #00a08e;
+  --selection-color: #107c7c;
   --navbar-höhe: 55px;
   --rundung: 32px;
   --grau: #3d4856;
@@ -158,10 +158,12 @@ a:any-link {
 
 ::selection {
   background: var(--selection-color);
+  color: #fff;
 }
 
 ::-moz-selection {
   background: var(--selection-color);
+  color: #fff;
 }
 
 .tab-pane {
@@ -421,4 +423,4 @@ a:any-link {
   margin-top: 50px;
   background-color: var(--third-color);
   color: #fff;
-}
+  }
