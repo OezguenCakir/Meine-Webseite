@@ -32,13 +32,5 @@ document.querySelectorAll(".tab-link").forEach((link) => {
   });
 });
 
-// calc my age
-var date1 = new Date("1998-11-02");
-var date2 = new Date();
-var Difference_In_Time = date2.getTime() - date1.getTime();
-var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
-var Difference_In_Years = Difference_In_Days / 365.25;
-document.getElementById("age").innerHTML = Difference_In_Years.toFixed(1).replace(".", ",");
-
 // get current year for footer
 document.getElementById("currentYear").textContent = new Date().getFullYear();
